@@ -16,6 +16,8 @@ Para ver los ejemplos de uso, puedes hacer lo siguiente:
 - Si quieres autenticarte o consumir apis que necesiten autentificación: 
 - - email: user@user.com
 - - password: user
+- En el botón authorization, ingresa el token de la siguiente forma: Bearer (token devuelto del login)
+- Dentro de app->Http->Providers->RouteServiceProcider.php en la función configureRateLimiting, se configura el límite de solicitudes y el mensaje.
 
 # Referencias
 - https://github.com/DarkaOnLine/L5-Swagger
